@@ -4,6 +4,7 @@ import { jwtDecode } from 'jwt-decode';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 const baseURL = import.meta.env.VITE_API_URL
 
@@ -61,7 +62,7 @@ function Header({ loggedIn, setLoggedIn }) {
                         </div>
                     ) : (
                         <div className="userBox">
-                            <p>Log in</p>
+                            <Link to="/reglog">Log in/Register</Link>
                         </div>
                     )}
                 </div>
