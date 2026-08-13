@@ -1,4 +1,3 @@
-import ContentLink from './ContentLink';
 import Cookies from 'js-cookie';
 import { jwtDecode } from 'jwt-decode';
 import axios from 'axios';

@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 function RegLog({setLoggedIn}) {
     return (
         <div>
-            <div className="reglog">
+            <div>
                 <Register setLoggedIn={setLoggedIn} />
                 <Login setLoggedIn={setLoggedIn} />
             </div>
